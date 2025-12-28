@@ -25,3 +25,8 @@ A clean, dark-mode dashboard designed for an always-on tablet display.
 ## Technology
 - React + Vite
 - TailwindCSS
+
+## TODO
+- Add personal Calendar
+- Add more Weather information
+
