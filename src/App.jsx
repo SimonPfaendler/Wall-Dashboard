@@ -1,6 +1,7 @@
 import { ClockComponent } from './components/ClockComponent';
 import { WeatherComponent } from './components/WeatherComponent';
 import { TrashScheduleComponent } from './components/TrashScheduleComponent';
+import { CalendarComponent } from './components/CalendarComponent';
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
         <div className="col-span-3 flex flex-col gap-6">
           <div className="flex-1 rounded-[3rem] overflow-hidden shadow-2xl ring-1 ring-white/5">
             <TrashScheduleComponent />
+          </div>
+          <div className="flex-1 rounded-[3rem] overflow-hidden shadow-2xl ring-1 ring-white/5">
+            <CalendarComponent />
           </div>
         </div>
       </div>
