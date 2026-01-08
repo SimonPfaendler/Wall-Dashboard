@@ -14,7 +14,7 @@ export function ClockComponent() {
 
     return (
         <div className="flex flex-col items-center justify-center text-center h-full">
-            <div className="text-[12rem] leading-none font-bold tracking-tighter text-white">
+            <div className="text-7xl leading-none font-bold tracking-tighter text-white">
                 {format(time, 'HH:mm')}
             </div>
             <div className="text-4xl mt-4 text-gray-400 font-light">
