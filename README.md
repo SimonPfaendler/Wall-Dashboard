@@ -48,3 +48,4 @@ To run this as a real dashboard appliance:
 - Add more Weather information
 - Add second Apple calendar
 - Add Shopping List from Bring! App
+- Have to fix issues with login
