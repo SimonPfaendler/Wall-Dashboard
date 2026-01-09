@@ -47,5 +47,4 @@ To run this as a real dashboard appliance:
 ## TODO
 - Add more Weather information
 - Add second Apple calendar
-- Add Shopping List from Bring! App
-- Have to fix issues with login
+- Add weekly brochure of favourite supermarket
