@@ -7,6 +7,7 @@ A clean, dark-mode dashboard designed for an always-on tablet display.
 - **Weather**: Current conditions and daily high/low.
 - **Trash Schedule**: Next pickup indicator.
 - **Personal Calendar**: Upcoming events list.
+- **Weekly Brochure of Supermarket
 
 ## Setup (Development)
 
