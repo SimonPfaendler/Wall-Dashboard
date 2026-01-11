@@ -2,14 +2,23 @@ import { ClockComponent } from './components/ClockComponent';
 import { WeatherComponent } from './components/WeatherComponent';
 import { TrashScheduleComponent } from './components/TrashScheduleComponent';
 import { CalendarComponent } from './components/CalendarComponent';
+import { AldiComponent } from './components/AldiComponent';
 
 function App() {
   return (
     <div className="h-screen w-screen bg-black overflow-hidden flex items-center justify-center p-8">
       <div className="w-full h-full grid grid-cols-10 gap-8">
-        <div className="col-span-4 rounded-[3rem] border border-gray-900 bg-gray-950/50 flex items-center justify-center relative overflow-hidden ring-1 ring-white/5 shadow-2xl">
-          <div className="absolute inset-0 bg-gradient-to-br from-blue-900/5 to-purple-900/5 pointer-events-none" />
-          <ClockComponent />
+        <div className="col-span-4 flex flex-col gap-6">
+          {/* Clock Top */}
+          <div className="flex-1 rounded-[3rem] border border-gray-900 bg-gray-950/50 flex items-center justify-center relative overflow-hidden ring-1 ring-white/5 shadow-2xl min-h-0">
+            <div className="absolute inset-0 bg-gradient-to-br from-blue-900/5 to-purple-900/5 pointer-events-none" />
+            <ClockComponent />
+          </div>
+
+          {/* Aldi Bottom */}
+          <div className="flex-1 rounded-[3rem] overflow-hidden shadow-2xl ring-1 ring-white/5 min-h-0">
+            <AldiComponent />
+          </div>
         </div>
 
         <div className="col-span-3 rounded-[3rem] border border-gray-900 bg-gray-950/50 flex items-center justify-center relative overflow-hidden ring-1 ring-white/5 shadow-2xl">
@@ -18,10 +27,10 @@ function App() {
         </div>
 
         <div className="col-span-3 flex flex-col gap-6">
-          <div className="flex-1 rounded-[3rem] overflow-hidden shadow-2xl ring-1 ring-white/5">
+          <div className="flex-1 rounded-[3rem] overflow-hidden shadow-2xl ring-1 ring-white/5 min-h-0">
             <TrashScheduleComponent />
           </div>
-          <div className="flex-1 rounded-[3rem] overflow-hidden shadow-2xl ring-1 ring-white/5">
+          <div className="flex-1 rounded-[3rem] overflow-hidden shadow-2xl ring-1 ring-white/5 min-h-0">
             <CalendarComponent />
           </div>
         </div>
