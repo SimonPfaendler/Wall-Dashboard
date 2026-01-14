@@ -49,3 +49,5 @@ To run this as a real dashboard appliance:
 - Add more Weather information
 - Add second Apple calendar
 - Add weekly brochure of favourite supermarket
+- Add local Fuel prices
+- Add public transport
